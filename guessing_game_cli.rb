@@ -26,9 +26,9 @@ def run_guessing_game
 end
 
 
-def run_guessing_game
-  random_number
-  prompt
-  guess
-  compare
-end
+# def run_guessing_game
+#   random_number
+#   prompt
+#   guess
+#   compare
+# end
