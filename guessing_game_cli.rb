@@ -6,11 +6,11 @@ end
 
 def prompt
   puts "Guess a number between 1 & 6!"
-end 
+end
 
 def guess
   guess = gets.chomp
-  return guess 
+  return guess
 end
 
 def compare
@@ -18,7 +18,6 @@ def compare
   if input == random_number
     puts "You guessed the correct number!"
     puts "Goodbye!"
-    exit
   elsif num != guess
     puts "The computer guessed #{num}"
   elsif num == "exit"
@@ -30,6 +29,6 @@ end
 def run_guessing_game
   random_number
   prompt
-  guess 
+  guess
   compare
 end
