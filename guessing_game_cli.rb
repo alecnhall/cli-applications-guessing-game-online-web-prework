@@ -21,7 +21,6 @@ def run_guessing_game
   if human == computer
     puts "You guessed the correct number!"
   elsif human != computer
-    binding.pry
     puts "The computer guessed #{computer}"
   elsif human == "exit"
     puts "Goodbye!"
