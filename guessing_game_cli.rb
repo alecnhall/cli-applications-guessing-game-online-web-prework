@@ -13,7 +13,7 @@ def guess
   return guess
 end
 
-def compare
+def compare(num)
   computer = random_number
   human = guess
   if human == computer
