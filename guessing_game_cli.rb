@@ -1,4 +1,5 @@
 # Code your solution here!
+require "pry"
 def random_number
   num = rand(1..6)
   return num
@@ -19,6 +20,7 @@ def run_guessing_game
   if human == computer
     puts "You guessed the correct number!"
   elsif human != computer
+    binding.pry
     puts "The computer guessed #{computer}"
   elsif human == "exit"
     puts "Goodbye!"
