@@ -13,7 +13,8 @@ def guess
   return guess
 end
 
-def compare(num)
+def compare
+  computer = random_number
   human = guess
   if human == num
     puts "You guessed the correct number!"
