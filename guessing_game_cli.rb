@@ -19,9 +19,9 @@ def compare
   if human == computer
     puts "You guessed the correct number!"
     puts "Goodbye!"
-  elsif num != guess
-    puts "The computer guessed #{num}"
-  elsif num == "exit"
+  elsif human != computer
+    puts "The computer guessed #{computer}"
+  elsif human == "exit"
     puts "Goodbye!"
   end
 end
