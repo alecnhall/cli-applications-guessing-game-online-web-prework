@@ -12,10 +12,3 @@ def run_guessing_game
   end
 end
 
-
-# def run_guessing_game
-#   random_number
-#   prompt
-#   guess
-#   compare
-# end
