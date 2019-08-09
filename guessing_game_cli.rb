@@ -14,12 +14,11 @@ def guess
 end
 
 def compare(num)
-  computer = random_number
   human = guess
-  if human == computer
+  if human == num
     puts "You guessed the correct number!"
     puts "Goodbye!"
-  elsif human != computer
+  elsif human != num
     puts "The computer guessed #{computer}"
   elsif human == "exit"
     puts "Goodbye!"
