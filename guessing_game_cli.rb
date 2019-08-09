@@ -14,8 +14,7 @@ def guess
 end
 
 def run_guessing_game
-  computer = random_number
-  human = guess
+  random = rand(6)+1
   if human == "exit"
     puts "Goodbye!"
   elsif human != computer
