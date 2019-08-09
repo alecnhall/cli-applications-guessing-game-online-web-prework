@@ -16,10 +16,10 @@ end
 def compare
   computer = random_number
   human = guess
-  if human == num
+  if human == computer
     puts "You guessed the correct number!"
     puts "Goodbye!"
-  elsif human != num
+  elsif human != computer
     puts "The computer guessed #{computer}"
   elsif human == "exit"
     puts "Goodbye!"
