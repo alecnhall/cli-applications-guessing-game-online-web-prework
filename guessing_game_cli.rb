@@ -22,7 +22,7 @@ def run_guessing_game
   elsif human == "exit"
     puts "Goodbye!"
   elsif human != computer
-    puts "The computer guessed #{computer}"
+    puts "The computer guessed #{computer}."
   end
 end
 
