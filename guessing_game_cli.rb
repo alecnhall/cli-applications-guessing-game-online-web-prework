@@ -16,7 +16,7 @@ end
 def compare
   computer = random_number
   human = guess
-  if input == random_number
+  if human == computer
     puts "You guessed the correct number!"
     puts "Goodbye!"
   elsif num != guess
