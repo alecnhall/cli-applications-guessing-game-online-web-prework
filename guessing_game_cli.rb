@@ -15,6 +15,7 @@ def guess
 end
 
 def run_guessing_game
+  binding.pry
   computer = random_number
   human = guess
   if human == computer
