@@ -14,7 +14,8 @@ def guess
 end
 
 def compare
-  input = guess
+  computer = random_number
+  human = guess
   if input == random_number
     puts "You guessed the correct number!"
     puts "Goodbye!"
