@@ -1,7 +1,7 @@
 # Code your solution here!
 require "pry"
 def random_number
-  num = rand(6)
+  num = rand(6)+1
   return num
 end
 
