@@ -16,13 +16,13 @@ end
 def run_guessing_game
   computer = random_number
   human = guess
-  if human == computer
-    puts "You guessed the correct number!"
-  elsif human == "exit"
-    puts "Goodbye!"
+  if human == "exit"
+  puts "Goodbye!"
   elsif human != computer
     puts "Sorry! The computer guessed #{computer}."
   end
+  elsif human == computer
+    puts "You guessed the correct number!"
 end
 
 
