@@ -1,17 +1,3 @@
-# Code your solution here!
-def random_number
-  num = rand(6)+1
-  return num
-end
-
-def prompt
-  puts "Guess a number between 1 & 6!"
-end
-
-def guess
-  guess = gets.chomp
-  return guess
-end
 
 def run_guessing_game
   random = rand(6)+1
